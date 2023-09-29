@@ -1,2 +1,2 @@
 # microsig
-This package contains functions to calculate microbe signatures, particularly from bugsigdb inputs.
+This package contains functions to calculate microbe signature scores, particularly from bugsigdb inputs.
