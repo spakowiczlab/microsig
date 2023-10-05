@@ -1,8 +1,10 @@
 #' Microbe Entries
 #' A function that can be used to call of specific microbe signatures.
-#' @param query Name of the signature group. If query is passed "all" function will return all the signature groups
+#' @param query Name of the signature group, or the string "all"
 #'
-#' @return The microbes within a desired signature group in the format "x__microbe name" with x indicating taxonomic level
+#' @return The microbes within a desired signature group in the format
+#' "x__microbe name" with x indicating taxonomic level. If query is passed "all"
+#' function will return all the signature groups
 #' @export
 #'
 #' @examples microbeEntries("paa_up")

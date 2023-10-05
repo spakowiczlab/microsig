@@ -2,13 +2,13 @@
 % Please edit documentation in R/getSigList.R
 \name{getSigList}
 \alias{getSigList}
-\title{Given a single cell value from bigsigDB output in the column 'MetaPhlAn.taxon.names',
+\title{Given a single cell value from BugSigDB output in the column 'MetaPhlAn.taxon.names',
 returns a list of the microbes}
 \usage{
 getSigList(sig)
 }
 \arguments{
-\item{sig}{character string from bugsigDB output containing comma separated
+\item{sig}{character string from BugSigDB output containing comma separated
 Metaphlan taxonomic names}
 }
 \value{
@@ -16,6 +16,6 @@ sig.list , a character list of containing the string after the last
 "|" in each comma separated Metaphlan taxonomic name
 }
 \description{
-Given a single cell value from bigsigDB output in the column 'MetaPhlAn.taxon.names',
+Given a single cell value from BugSigDB output in the column 'MetaPhlAn.taxon.names',
 returns a list of the microbes
 }

@@ -1,11 +1,11 @@
-#' Given a single cell value from bigsigDB output in the column 'MetaPhlAn.taxon.names',
+#' Given a single cell value from BugSigDB output in the column 'MetaPhlAn.taxon.names',
 #' returns a list of the microbes
 #'
-#' @param sig character string from bugsigDB output containing comma separated
+#' @param sig character string from BugSigDB output containing comma separated
 #' Metaphlan taxonomic names
 #'
 #' @return sig.list , a character list of containing the string after the last
-#'  "|" in each comma separated Metaphlan taxonomic name
+#' "|" in each comma separated Metaphlan taxonomic name
 #'
 #' @export
 getSigList <- function(sig){

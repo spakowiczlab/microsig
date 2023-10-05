@@ -8,10 +8,12 @@ A function that can be used to call of specific microbe signatures.}
 microbeEntries(query)
 }
 \arguments{
-\item{query}{Name of the signature group. If query is passed "all" function will return all the signature groups}
+\item{query}{Name of the signature group, or the string "all"}
 }
 \value{
-The microbes within a desired signature group in the format "x__microbe name" with x indicating taxonomic level
+The microbes within a desired signature group in the format
+"x__microbe name" with x indicating taxonomic level. If query is passed "all"
+function will return all the signature groups
 }
 \description{
 Microbe Entries
